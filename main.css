@@ -1,0 +1,62 @@
+.Header-Image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.Header-Title{
+    text-align: center;
+    color:royalblue;
+}
+.Table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.Best-Games-Table {
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.Best-Games-Table th {
+    color:rgb(33, 6, 187);
+    background-color: gray;
+    height: 30px;
+    width: 250px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.Best-Games-Table td {
+    background-color: rgb(148, 138, 138);
+    color: blue;
+    height: 30px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.About-Text{
+
+    color:darkgreen;
+    
+
+}
+article {
+
+    text-align: auto;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.Article-Title {
+    text-align: center;
+    color: royalblue
+}
+
+.Development-Text-Title{
+    text-align: center;
+    color: royalblue;
+}
+.Development-Text {
+    color: darkgreen;
+}
+
+body {
+    background: black;
+}
