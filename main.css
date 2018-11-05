@@ -36,14 +36,14 @@
 .About-Text{
 
     color:darkgreen;
+    color: darkgreen;
+    max-width: 800px; 
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
     
 
-}
-article {
-
-    text-align: auto;
-    margin-left: 400px;
-    margin-right: 400px;
 }
 .Article-Title {
     text-align: center;
@@ -56,6 +56,13 @@ article {
 }
 .Development-Text {
     color: darkgreen;
+    max-width: 800px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    
 }
 
 body {
