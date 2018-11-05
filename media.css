@@ -1,0 +1,10 @@
+@media screen and (min-width: 800px) {
+    .Header-Image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      color: red;
+      width: 400;
+    }
+}
