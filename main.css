@@ -64,7 +64,7 @@ body {
   background: black;
 }
 
-@media screen and (min-width: 480px) {
+<!--@media screen and (min-width: 480px) {
   .Header-Image {
     display: block;
     margin-left: auto;
@@ -73,4 +73,4 @@ body {
     color: red;
     width: 300;
   }
-}
+}-->
