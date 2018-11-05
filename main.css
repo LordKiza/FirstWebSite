@@ -1,70 +1,76 @@
-.Header-Image{
+.Header-Image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: red;
+}
+.Header-Title {
+  text-align: center;
+  color: royalblue;
+}
+.Table {
+  margin-left: auto;
+  margin-right: auto;
+}
+.Best-Games-Table {
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+.Best-Games-Table th {
+  color: rgb(33, 6, 187);
+  background-color: gray;
+  height: 30px;
+  width: 250px;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+.Best-Games-Table td {
+  background-color: rgb(148, 138, 138);
+  color: blue;
+  height: 30px;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+.About-Text {
+  color: darkgreen;
+  color: darkgreen;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.Article-Title {
+  text-align: center;
+  color: royalblue;
+}
+
+.Development-Text-Title {
+  text-align: center;
+  color: royalblue;
+}
+.Development-Text {
+  color: darkgreen;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+body {
+  background: black;
+}
+
+@media screen and (max-width: 480px) {
+  .Header-Image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     color: red;
-}
-.Header-Title{
-    text-align: center;
-    color:royalblue;
-}
-.Table {
-    margin-left: auto;
-    margin-right: auto;
-}
-.Best-Games-Table {
-    text-align: center;
-    border-collapse: collapse;
-    border: 1px solid black;
-}
-.Best-Games-Table th {
-    color:rgb(33, 6, 187);
-    background-color: gray;
-    height: 30px;
-    width: 250px;
-    border-collapse: collapse;
-    border: 1px solid black;
-}
-.Best-Games-Table td {
-    background-color: rgb(148, 138, 138);
-    color: blue;
-    height: 30px;
-    border-collapse: collapse;
-    border: 1px solid black;
-}
-.About-Text{
-
-    color:darkgreen;
-    color: darkgreen;
-    max-width: 800px; 
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    
-    
-
-}
-.Article-Title {
-    text-align: center;
-    color: royalblue
-}
-
-.Development-Text-Title{
-    text-align: center;
-    color: royalblue;
-}
-.Development-Text {
-    color: darkgreen;
-    max-width: 800px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-    
-}
-
-body {
-    background: black;
+    width: 300;
+  }
 }
