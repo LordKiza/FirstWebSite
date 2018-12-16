@@ -50,10 +50,11 @@
 
 .Development-Text-Title {
   text-align: center;
-  color: royalblue;
+  color: aqua;
 }
 .Development-Text {
-  color: darkgreen;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: chartreuse;
   max-width: 800px;
   display: flex;
   justify-content: center;
@@ -63,7 +64,7 @@
 }
 
 body {
-  background: black;
+  background: rgb(41, 40, 40);
 }
 @media screen and (max-width: 480px) {
     .Header-Image {
