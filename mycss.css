@@ -1,0 +1,47 @@
+.jumbotron {
+    text-align: center;
+}
+
+.Card {
+    width: 320px;
+    height: 180px;
+    border-radius: 3%;
+    margin: 10px 25px;
+    text-align:left;
+    padding-left: 10px;
+    box-shadow: 2px 1px 15px #333;
+    margin-top: 20px;
+}
+.Card img {
+    padding-left: 70%;
+}
+
+.Calculator {
+    border-top: blue solid 3px;
+}
+.Team-builder {
+    border-top: red solid 3px;
+}
+.Karma {
+    border-top: orange solid 3px;
+}
+.Supervisor {
+    border-top: lightblue solid 3px;
+}
+
+@media screen and (min-width: 992px) {
+    .Supervisor {
+        margin-top: 100px;
+    }
+    .Calculator {
+        margin-top: 100px;
+    }
+
+  }
+  @media screen and (max-width: 992px) {
+    
+    .Card {
+        margin: 10px auto;
+    }
+
+  }
